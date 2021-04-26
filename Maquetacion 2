@@ -1,0 +1,55 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>Maquetacion 2</title>
+<style>
+*{margin:0;padding:0;}
+html{background-color:aqua}
+body{width:1000px;height:950px;margin:auto;
+background-color:white;}
+
+section#box{width:200px;height:100px;float: left;
+background-color: blueviolet;}
+section#banner{width:800px;height:300px;float:left;
+background-color:orange;}
+section#logo{width: 200px;height: 100px;float:right;
+background-color:blue;}
+section#login{width: 200px;height: 100px;float:right;
+background-color:green;}
+section#form{width: 200px;height: 100px;float:right;
+background-color:brown;}
+
+aside#left{width:200px;height:500px;float:left;
+background-color: chartreuse;}
+article{width:500px;height:500px;float:left;
+background-color: skyblue;}
+aside#right{width:300px;height:500px;float:left;
+background-color:chocolate;}
+
+footer{width: 1000px;height: 50px;float: left;
+background-color: coral;}
+
+</style>
+</head> 
+<body>
+<nav>
+<section id="box"></section>
+<section id="box"></section>
+<section id="box"></section>
+<section id="box"></section>
+<section id="box"></section>
+</nav>
+<header>
+<section id="banner"></section>
+<section id="logo"></section>
+<section id="login"></section>
+<section id="form"></section>
+</header>
+<main>
+<aside id="left"></aside>
+<article></article>
+<aside id="right"></aside>
+</main>
+<footer></footer>
+</body>
+</html>
